@@ -1,0 +1,178 @@
+body:before {
+    opacity: 0.7;
+    font-family: ‘Georgia’, Times, ‘Times New Roman’, serif;
+}
+
+body {
+    background-image: url(https://www.fpcfl.org/wp-content/uploads/2017/05/gym-floor.jpg);
+}
+
+.canvas-interactive-wrapper {
+    position: relative;
+    height: 325px;
+    border-radius: 35px;
+    text-align: center;
+}
+
+.canvas-interactive-wrapper canvas {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.canvas-interactive-wrapper .cta-wrapper {
+    margin-top: 0px;
+}
+
+#violet-state-cta {
+    font-size: 115px;
+    padding-top: 0px;
+    font-family: ‘Georgia’, Times, ‘Times New Roman’, serif;
+}
+
+#default-state-cta {
+    font-size: 20px;
+    font-family: ‘Georgia’, Times, ‘Times New Roman’, serif;
+    padding-bottom: 0px;
+}
+
+.canvas-interactive-wrapper .cta-wrapper a {
+    position: relative;
+    display: inline-block;
+    padding: 3px 7px;
+    border: solid 1px transparent;
+    margin-right: 50px;
+    z-index: 1;
+    text-decoration: none;
+    color: #222;
+    transition: border .3s;
+}
+
+.canvas-interactive-wrapper .cta-wrapper a.active {
+    border-color: #222;
+}
+
+
+#musclePic {
+    margin-right: 15px;
+    margin-top: 15px !important;
+}
+
+#theExercises {
+    color: white;
+}
+
+h5 {
+    font-family: ‘Georgia’, Times, ‘Times New Roman’, serif;
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    color: rgb(8, 8, 8);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.form-group {
+    width: 350px;
+}
+
+#ddlMusclelist {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: ‘Georgia’, Times, ‘Times New Roman’, serif;
+    margin: auto;
+    padding: 10px;
+}
+
+#infoData {
+    color: white;
+}
+
+​.nameOrig1 {
+    color: white;
+    font-size: 25px !important;
+    font-family: ‘Georgia’, Times, ‘Times New Roman’, serif !important;
+    font-weight: bold !important;
+}
+
+.descrip1 {
+    color: white;
+    font-size: 22px;
+    font-family: ‘Georgia’, Times, ‘Times New Roman’, serif;
+}
+
+.descrip1 p {
+    font-size: 19px;
+    font-family: ‘Georgia’, Times, ‘Times New Roman’, serif;
+}
+
+.icon1 {
+    padding-left: 25px;
+    width: 70%;
+    background-color: white;
+    align-content: center;
+}
+
+.nameOrig2 {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: ‘Georgia’, Times, ‘Times New Roman’, serif;
+}
+
+.descrip2 {
+    color: white;
+    font-size: 22px;
+    font-family: ‘Georgia’, Times, ‘Times New Roman’, serif;
+}
+
+.descrip2 p {
+    font-size: 19px;
+    font-family: ‘Georgia’, Times, ‘Times New Roman’, serif;
+}
+
+.icon2 {
+    padding-left: 25px;
+    width: 70%;
+    background-color: white;
+    align-content: center;
+}
+
+.card {
+    background-color: lightgray;
+    opacity: none;
+    margin-top: 60px;
+}
+
+h4 {
+    text-align: center;
+    font-family: ‘Georgia’, Times, ‘Times New Roman’, serif;
+}
+
+.card-title {
+    text-align: center;
+    opacity: none;
+    color: black;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(224, 224, 224);
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#tagline {
+    text-align: center;
+    color: rgb(8, 8, 8);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(224, 224, 224);
+    opacity: none;
+}
+
